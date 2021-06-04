@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-pickle_in = open("Model","rb")
+pickle_in = open("ModelCS","rb")
 Classifier = pickle.load(pickle_in)
 
 expander = st.beta_expander("ABOUT THE PROJECT")
